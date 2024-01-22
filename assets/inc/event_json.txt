@@ -1,0 +1,116 @@
+{
+  "id": "evt_1ObM3pGvRicPy0MgoVqz66g6",
+  "object": "event",
+  "api_version": "2023-10-16",
+  "created": 1705924385,
+  "data": {
+    "object": {
+      "id": "cs_test_a1souxrVhNshou0jrWLCQfdtuiyj18WuyuFRZAiOnk0b4qQcnYFcFSN486",
+      "object": "checkout.session",
+      "after_expiration": null,
+      "allow_promotion_codes": null,
+      "amount_subtotal": 200,
+      "amount_total": 200,
+      "automatic_tax": {
+        "enabled": false,
+        "status": null
+      },
+      "billing_address_collection": null,
+      "cancel_url": "http://uz-univers/?id=index",
+      "client_reference_id": null,
+      "client_secret": null,
+      "consent": null,
+      "consent_collection": null,
+      "created": 1705924370,
+      "currency": "usd",
+      "currency_conversion": null,
+      "custom_fields": [
+
+      ],
+      "custom_text": {
+        "after_submit": null,
+        "shipping_address": null,
+        "submit": null,
+        "terms_of_service_acceptance": null
+      },
+      "customer": null,
+      "customer_creation": "if_required",
+      "customer_details": {
+        "address": {
+          "city": null,
+          "country": "UZ",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "dearDIOR@mail.ru",
+        "name": "DS DS",
+        "phone": null,
+        "tax_exempt": "none",
+        "tax_ids": [
+
+        ]
+      },
+      "customer_email": null,
+      "expires_at": 1706010770,
+      "invoice": null,
+      "invoice_creation": {
+        "enabled": false,
+        "invoice_data": {
+          "account_tax_ids": null,
+          "custom_fields": null,
+          "description": null,
+          "footer": null,
+          "metadata": {
+          },
+          "rendering_options": null
+        }
+      },
+      "livemode": false,
+      "locale": null,
+      "metadata": {
+      },
+      "mode": "payment",
+      "payment_intent": "pi_3ObM3oGvRicPy0Mg0MSF1tqs",
+      "payment_link": null,
+      "payment_method_collection": "if_required",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+      },
+      "payment_method_types": [
+        "card"
+      ],
+      "payment_status": "paid",
+      "phone_number_collection": {
+        "enabled": false
+      },
+      "recovered_from": null,
+      "setup_intent": null,
+      "shipping_address_collection": null,
+      "shipping_cost": null,
+      "shipping_details": null,
+      "shipping_options": [
+
+      ],
+      "status": "complete",
+      "submit_type": null,
+      "subscription": null,
+      "success_url": "http://uz-univers/assets/inc/success.php?session_id={CHECKOUT_SESSION_ID}",
+      "total_details": {
+        "amount_discount": 0,
+        "amount_shipping": 0,
+        "amount_tax": 0
+      },
+      "ui_mode": "hosted",
+      "url": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": null,
+    "idempotency_key": null
+  },
+  "type": "checkout.session.completed"
+}

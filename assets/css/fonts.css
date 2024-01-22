@@ -1,0 +1,68 @@
+/* Alegreya Sans */
+ @font-face {
+    src: url(../fonts/alegreya/AlegreyaSans-Medium.ttf) format("truetype");
+    font-family: 'Alegreya Sans';
+    font-weight: 500;
+}
+@font-face {
+    src: url(../fonts/alegreya/AlegreyaSans-BoldItalic.ttf) format("truetype");
+    font-family: 'Alegreya Sans';
+  	font-style: italic;
+    font-weight: 700;
+} 
+
+/* Source Sans Pro */
+/* @font-face {
+    src: url(../fonts/source_sans_pro/SourceSansPro-Regular.ttf) format("truetype");
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+@font-face {
+    src: url(../fonts/source_sans_pro/SourceSansPro-SemiBoldItalic.ttf) format("truetype");
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+} */
+
+/* Inter  */
+@font-face {
+    src: url(../fonts/inter/static/Inter-Light.ttf) format("truetype");
+    font-family: 'Inter';
+    font-weight: 300;
+}
+@font-face {
+    src: url(../fonts/inter/static/Inter-Regular.ttf) format("truetype");
+    font-family: 'Inter';
+    font-weight: 400;
+}
+@font-face {
+    src: url(../fonts/inter/static/Inter-Medium.ttf) format("truetype");
+    font-family: 'Inter';
+    font-weight: 500;
+}
+@font-face {
+    src: url(../fonts/inter/static/Inter-SemiBold.ttf) format("truetype");
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+/* icons */
+@font-face {
+    font-family: 'icons';
+    src: url(../fonts/icons/fa-brands-400.ttf) format("truetype");
+    font-weight: 450;
+}
+@font-face {
+    font-family: 'icons';
+    src: url(../fonts/icons/fa-regular-400.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'icons';
+    src: url(../fonts/icons/fa-solid-900.ttf) format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'icons';
+    src: url(../fonts/icons/fa-duotone-900.ttf) format("truetype");
+    font-weight: 950;
+}
